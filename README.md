@@ -1,0 +1,2 @@
+# AWS_S3_Glue_staging_manual_commit_gzipfiles
+ AWS_S3_Glue_staging_manual_commit_gzipfiles
