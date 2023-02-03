@@ -1,6 +1,6 @@
-aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIALS/COSTING/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIALS/COSTING/ --recursive
-aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIALS/PROFITABILITY/HISTORICAL/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIALS/PROFITABILITY/HISTORICAL/ --recursive
-aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIALS/PROFITABILITY/ZIPRFANLZFINLCUB/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIALS/PROFITABILITY/ZIPRFANLZFINLCUB/ --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/COSTING/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIAL/COSTING/ --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/PROFITABILITY/HISTORICAL/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIAL/PROFITABILITY/HISTORICAL/ --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/PROFITABILITY/ZIPRFANLZFINLCUB/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIAL/PROFITABILITY/ZIPRFANLZFINLCUB/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/INVENTORY/BALANCE/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/INVENTORY/BALANCE/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/INVENTORY/TRANSACTION/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/INVENTORY/TRANSACTION/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MANUFACTURING/OVERVIEW/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MANUFACTURING/OVERVIEW/ --recursive
