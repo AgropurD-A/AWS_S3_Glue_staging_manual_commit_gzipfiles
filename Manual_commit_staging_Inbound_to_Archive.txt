@@ -1,6 +1,6 @@
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/COSTING/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIAL/COSTING/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/PROFITABILITY/HISTORICAL/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIAL/PROFITABILITY/HISTORICAL/ --recursive
-aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/PROFITABILITY/ZIPRFANLZFINLCUB/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIAL/PROFITABILITY/ZIPRFANLZFINLCUB/ --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/PROFITABILITY/PROFITABILITY/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/FINANCIAL/PROFITABILITY/PROFITABILITY/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/INVENTORY/BALANCE/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/INVENTORY/BALANCE/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/INVENTORY/TRANSACTION/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/INVENTORY/TRANSACTION/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MANUFACTURING/OVERVIEW/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MANUFACTURING/OVERVIEW/ --recursive
@@ -11,8 +11,11 @@ aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/PROCUR
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/SALE/INVOICELINE/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/SALE/INVOICELINE/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/SALE/ORDERLINE/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/SALE/ORDERLINE/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/SALE/SHIPLINE/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/SALE/SHIPLINE/ --recursive
-aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/TEST_MASTERDATA_FIN/SHIPLINE/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/TEST_MASTERDATA_FIN/SHIPLINE/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/FIN/FIN_T001/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/FIN/FIN_T001/ --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/FIN/T001/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/FIN/T001/ --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/FIN/T009 s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/FIN/T009 --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/FIN/T009B s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/FIN/T009B --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/FIN/T009C s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/FIN/T009C --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/A526/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/A526/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/A528/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/A528/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/A531/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/A531/ --recursive
@@ -64,6 +67,8 @@ aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/NACH/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/NACH/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/STXH/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/STXH/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/STXL/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/STXL/ --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/T6821 s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/T6821 --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/T685 s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/T685 --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/TVKO/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/TVKO/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/UDMBPPROFILE/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/UDMBPPROFILE/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/OTC/UDMBPSEGMENTS/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/OTC/UDMBPSEGMENTS/ --recursive
@@ -104,6 +109,8 @@ aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/PTM/QPMZ/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/PTM/QPMZ/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/PTM/RESB/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/PTM/RESB/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/PTM/SAPAPO/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/PTM/SAPAPO/ --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/PTM/SAPAPO/CHAR/MAT/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/PTM/SAPAPO/CHAR/MAT/ --recursive
+aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/PTM/SAPAPO/CHAR/MID/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/PTM/SAPAPO/CHAR/MID/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/PTM/STKO/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/PTM/STKO/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/PTM/STPO/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/PTM/STPO/ --recursive
 aws s3 mv s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MASTER_DATA_TABLES/PTM/TCRCOT/ s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Archive/MASTER_DATA_TABLES/PTM/TCRCOT/ --recursive
